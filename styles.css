@@ -1,34 +1,42 @@
-h1{
-    color:red;
-    font-size: 50px;
+h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
 }
-h2{
-    color:seagreen;
-}
-h1,h2{
-    color: purple;
-}
-.food{
-    color: orange;
-}
-li {
-    color:blue;
-}
-body {
-    background-color:rgb(0, 217, 255);
-    }
-body {
-    padding: 0px 50px 50px 50px;
-}
-img {
-    width: 400px;
-}
-body {
-    border-style: double;
-}
-h1 {
+
+.jumbotron {
+    background-attachment: fixed;
+    background-image: url(Photos_HW1/CaddyEngineBay.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
     text-shadow: 1px 1px 1px black;
 }
-.rotate {
-    animation: rotation 2s infinite linear;
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
 }
+.carousel-inner img{
+    width: 1600px;
+    height: 600px;
+}
+
+/* Typography */
+body {
+    /* Everything is Raleway */
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /* And the "logo" */
+  .navbar-brand {
+    font-family: 'Sigmar One', cursive;
+    font-size: 30px;
+  }
+  .navbar-light .navbar-brand {
+    color: black;
+  }
+  
+  /* Navbar background color */
+  .navbar {
+    background-color: white;
+  }
+  .button { color: black;}
